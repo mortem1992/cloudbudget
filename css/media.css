@@ -1,0 +1,370 @@
+@media screen and (max-width:1190px) {
+
+    .header__nav{
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .cap-desc__wrap-h {
+        font-size: 60px;
+        line-height: 74px;
+    }
+
+    .cap-desc__wrap-p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .features__wrap-cards{
+        flex-wrap: wrap;
+        max-width: 830px;
+        margin: auto;
+        gap: 120px;
+    }
+
+    .techno__cards{
+        justify-content: center;
+        gap: 120px;
+        flex-wrap: wrap;
+    }
+
+    .footer__wrap{
+        justify-content: center;
+        gap: 100px;
+    }
+}
+
+@media screen and (max-width:1080px){
+    .stay__wrap{
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .stay__wrap-desc{
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .stay__wrap-desc-h{
+        text-align: center;
+    }
+
+    .stay__wrap-desc-p{
+        text-align: center;
+    }
+
+    .contact__wrap{
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .footer__wrap{
+        flex-wrap: wrap;
+    }
+
+    .footer__address-copy{
+        margin-top: 0;
+    }
+    .footer__address-copy {
+        margin-top: 80px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .footer__sup-h{
+        text-align: center;
+    }
+    .header__nav{
+        flex-direction: column;
+        padding: 25px 0;
+    }
+
+    .header__lang-btn{
+        margin-right: 20px;
+    }
+
+    .cap-desc__wrap {
+        margin-top: 40px;
+    }
+
+    .cap-desc__wrap-h {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .cap-desc__wrap-p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .using{
+        margin-top: 45px;
+    }
+
+    .using__wrap {
+        gap: 60px;
+    }
+
+
+    .using__wrap-desc-h {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    
+    .using__wrap-desc-p {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .features{
+        margin-top: 50px;
+        padding: 30px 0 60px;
+    }
+    .techno-h{
+        margin-bottom: 25px;
+    }
+    .stay__wrap{
+        padding: 30px 0;
+    }
+    .contact__wrap{
+        margin: 10px 0;
+    }
+    .footer{
+        padding: 40px 0;
+    }
+    .footer__wrap{
+        gap: 70px;
+    }
+}
+
+@media screen and (max-width:838px){
+    .using__wrap{
+        flex-direction: column-reverse;
+        max-width: 445px;
+        width: 100%;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:700px){
+
+    .cap-desc__wrap-h {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .cap-desc__wrap-p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .cap-desc__wrap-btn{
+        padding: 16px 30px;
+    }
+
+    .header__nav{
+        gap: 30px;
+    }
+
+    .header__lang{
+        gap: 14px;
+    }
+
+    .cap-desc__wrap{
+        gap: 20px;
+    }
+
+    .cap-desc__wrap-btn{
+        margin-top: 0;
+    }
+
+    .stay__wrap-block-abs img{
+        max-width: 200px;
+    }
+
+    .stay__wrap-block-opacity img{
+        max-width: 150px;
+    }
+
+    .stay__wrap-block-abs{
+        top: -20px;
+    }
+
+    .stay__wrap{
+        gap: 60px;
+    }
+
+    .stay__wrap-desc-h{
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+
+}
+
+@media screen and (max-width:620px){
+    .footer__wrap{
+        flex-direction: column;
+        gap: 25px;
+        padding: 0px 0 0 88px;
+        
+    }
+    .footer__address-copy {
+        align-items: flex-start;
+        justify-content: start;
+        padding: 0 0 0 88px;
+    }
+
+}
+
+
+@media screen and (max-width:527px){
+    .nav__menu{
+        flex-wrap: wrap;
+        max-width: 300px;
+    }
+
+    .cap {
+        background: url(../img/bg-main.png) no-repeat center/cover;
+    }
+
+    .header__nav{
+        gap: 50px;
+    }
+
+    .cap-desc__wrap-h {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .cap-desc__wrap-p {
+        font-size: 12px;
+        line-height: 17px;
+        max-width: 300px;
+    }
+
+    .cap-desc__wrap{
+        margin-top: 20px;
+    }
+
+    .cap-desc__wrap-btn{
+        padding: 10px 20px;
+    }
+
+    .header__lang{
+        max-width: 150px;
+        flex-wrap: nowrap;
+        gap: 12px;
+    }
+
+    .header__lang-btn {
+        padding: 10px 20px;
+    }
+
+    .nav__menu{
+        flex-wrap: wrap;
+    }
+
+    .using__wrap-desc-images img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .using__wrap-desc-images{
+        max-width: 319px;
+        width: 100%;
+    }
+
+    .using__wrap-desc-images-play{
+        top: 100px;
+        left: -15px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .using__wrap-desc-h {
+        font-size: 20px;
+        line-height: 22px;
+        text-align: center;
+    }
+    
+    .using__wrap-desc-p {
+        font-size:11px;
+        line-height: 13px;
+        text-align: center;
+    }
+
+    .using__wrap-desc-span{
+        margin: auto;
+    }
+
+    .stay__wrap-desc-p {
+        font-size: 10px;
+        line-height: 16px;
+        margin: 0 20px;
+    }
+
+    .stay__wrap-desc-h {
+        font-size: 25px;
+        line-height: 29px;
+    }
+    
+    .contact__wrap {
+        padding: 60px 0 0;
+    }
+    .features {
+        margin-top: 40px;
+        padding: 60px 0 60px;
+        background: #FAFAFA;
+    }
+
+    .contact__wrap-desc-h{
+        text-align: center;
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+    .contact__wrap-desc-p{
+        text-align: center;
+        margin: 0 20px;
+    }
+
+    .contact__wrap-form-btn{
+        margin: 0 auto;
+    }
+
+    .contact__wrap-form-desc{
+        flex-direction: column;
+    }
+
+
+
+
+}
+
+@media screen and (max-width:365px){
+    .features__wrap-cards-sup-img img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .features__wrap-cards-sup-desc{
+        padding: 15px;
+    }
+
+    .features__wrap-cards-sup-h {
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 200px;
+    }
+
+    .footer__wrap{
+        padding: 0 0 0 40px;
+    }
+
+    .footer__address-copy{
+        padding: 0 0 0 40px;
+    }
+}
+
